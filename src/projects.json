@@ -1,0 +1,9 @@
+[
+    {
+        "imageUrl": "https://github.com/skolnikskolnik/titrationCurve/raw/main/images/tit_curve.JPG",
+        "projTitle": "Titration curve",
+        "summary": "Generates a titration curve and generates a database of weak acids",
+        "gitHubLink": "https://github.com/skolnikskolnik/titrationCurve",
+        "deployedApp": "https://mighty-tundra-34283.herokuapp.com/"
+    }
+]
