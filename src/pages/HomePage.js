@@ -1,145 +1,76 @@
 import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Button from '@material-ui/core/Button';
-import CameraIcon from '@material-ui/icons/PhotoCamera';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import Button from '@material-ui/core/Button';
+import Link from '@material-ui/core/Link';
+import Paper from '@material-ui/core/Paper';
+import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
-import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
-import Link from '@material-ui/core/Link';
-import projects from "../projects.json";
+import profilepic from "../images/jskolpic.jpg";
+import resume from "../images/altman_te.pdf";
+
+
 
 function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Julie Altman
+    return (
+        <Typography variant="body2" color="textSecondary" align="center">
+            {'Copyright © '}
+            <Link color="inherit" href="https://material-ui.com/">
+                Julie Altman
       </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
+            {new Date().getFullYear()}
+            {'.'}
+        </Typography>
+    );
 }
 
 const useStyles = makeStyles((theme) => ({
-  icon: {
-    marginRight: theme.spacing(2),
-  },
-  heroContent: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(8, 0, 6),
-  },
-  heroButtons: {
-    marginTop: theme.spacing(4),
-  },
-  cardGrid: {
-    paddingTop: theme.spacing(8),
-    paddingBottom: theme.spacing(8),
-  },
-  card: {
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-  },
-  cardMedia: {
-    paddingTop: '56.25%', // 16:9
-  },
-  cardContent: {
-    flexGrow: 1,
-  },
-  footer: {
-    backgroundColor: theme.palette.background.paper,
-    padding: theme.spacing(6),
-  },
+    root: {
+        height: '100vh',
+    },
+    image: {
+        backgroundImage: `url(${profilepic})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundColor:
+            theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+    },
+    paper: {
+        margin: theme.spacing(8, 4),
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+    }
 }));
 
+export default function SignInSide() {
+    const classes = useStyles();
 
-export default function HomePage() {
-  const classes = useStyles();
+    return (
+        <Grid container component="main" className={classes.root}>
+            <CssBaseline />
+            <Grid item xs={false} sm={4} md={7} className={classes.image} />
+            <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
 
-  return (
-    <React.Fragment>
-      <CssBaseline />
-      <AppBar position="relative">
-        <Toolbar>
-          <CameraIcon className={classes.icon} />
-          <Typography variant="h6" color="inherit" noWrap>
-            Julie Altman
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <main>
-        {/* Hero unit */}
-        <div className={classes.heroContent}>
-          <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Julie's Projects
-            </Typography>
-            <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Here are a collection of some of the projects I've been working on. For a full list of projects, visit my GitHub page.
-            </Typography>
-            <div className={classes.heroButtons}>
-              <Grid container spacing={2} justify="center">
-                <Grid item>
-                  <Button variant="contained" color="primary" href="https://github.com/skolnikskolnik">
-                    Visit my GitHub page.
-                  </Button>
-                </Grid>
-              </Grid>
-            </div>
-          </Container>
-        </div>
-        <Container className={classes.cardGrid} maxWidth="md">
-          {/* End hero unit */}
-          <Grid container spacing={4}>
-            {projects.map((project) => (
-              <Grid item key={project.index} xs={12} sm={6} md={4}>
-                <Card className={classes.card}>
-                  <CardMedia
-                    className={classes.cardMedia}
-                    image={project.imageUrl}
-                    title={project.projTitle}
-                  />
-                  <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      {project.projTitle}
-                    </Typography>
-                    <Typography>
-                      {project.summary}
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Button size="small" color="primary" href={project.gitHubLink}>
-                      View on GitHub
-                    </Button>
-                    <Button size="small" color="primary" href={project.deployedApp}>
-                      Link to deployed application
-                    </Button>
-                  </CardActions>
-                </Card>
-              </Grid>
-            ))}
-          </Grid>
-        </Container>
-      </main>
-      {/* Footer */}
-      <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Julie Skolnik Altman
-        </Typography>
-        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Thank you for visiting my website. 
-        </Typography>
-        <Copyright />
-      </footer>
-      {/* End footer */}
-    </React.Fragment>
-  );
+                Thank you for visiting my website! My name is Julie Altman, and I 
+
+                <div className={classes.paper}>
+                    <Button variant="contained" color="primary" href="/portfolio">
+                        See my portfolio
+                        </Button> <br></br>
+                        <Button variant="contained" color="primary" href={resume}>
+                        See my resume
+                        </Button> <br></br>
+                        <Button variant="contained" color="primary" href="https://github.com/skolnikskolnik">
+                        Visit my GitHub page
+                        </Button> <br></br>
+                    <Box mt={5}>
+                        <Copyright />
+                    </Box>
+                </div>
+            </Grid>
+        </Grid>
+    );
 }
