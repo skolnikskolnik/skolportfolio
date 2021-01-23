@@ -11,7 +11,6 @@ import profilepic from "../images/jskolpic.jpg";
 import resume from "../images/altman_te.pdf";
 
 
-
 function Copyright() {
     return (
         <Typography variant="body2" color="textSecondary" align="center">
@@ -54,7 +53,8 @@ export default function SignInSide() {
             <Grid item xs={false} sm={4} md={7} className={classes.image} />
             <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
 
-                Thank you for visiting my website! My name is Julie Altman, and I 
+                <h1>Julie Altman</h1>
+                <p>Chemistry teacher turned software engineer. In both my personal and professional lives I strive to learn new skills and continue to polish existing ones.</p>
 
                 <div className={classes.paper}>
                     <Button variant="contained" color="primary" href="/portfolio">
