@@ -21,6 +21,9 @@ export default function NavBar() {
     title: {
       flexGrow: 1,
     },
+    navBar: {
+      backgroundColor: "#35CAC3"
+    }
   }));
 
   const classes = useStyles();
@@ -49,7 +52,7 @@ export default function NavBar() {
   return (
     <div className={classes.root}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar className={classes.navBar}>
           <IconButton
             edge="start"
             className={classes.menuButton}
@@ -74,7 +77,6 @@ export default function NavBar() {
             >
               <MenuItem onClick={handleCloseHome} >Home</MenuItem>
               <MenuItem onClick={handleClosePortfolio} >Portfolio</MenuItem>
-              <MenuItem onClick={handleClose}>Contact info</MenuItem>
             </Menu>
           </IconButton>
           <Typography variant="h6" className={classes.title}>

@@ -42,6 +42,11 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),
   },
+  button: {
+    width: "250px",
+    height: "35px",
+    backgroundColor: "#C335CA"
+}
 }));
 
 
@@ -64,7 +69,7 @@ export default function HomePage() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" color="primary" href="https://github.com/skolnikskolnik">
+                  <Button className={classes.button} variant="contained" color="primary" href="https://github.com/skolnikskolnik">
                     Visit my GitHub page.
                   </Button>
                 </Grid>
