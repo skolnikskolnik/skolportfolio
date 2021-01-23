@@ -1,9 +1,50 @@
 [
     {
+        "index": 1,
         "imageUrl": "https://github.com/skolnikskolnik/titrationCurve/raw/main/images/tit_curve.JPG",
         "projTitle": "Titration curve",
         "summary": "Generates a titration curve and generates a database of weak acids",
         "gitHubLink": "https://github.com/skolnikskolnik/titrationCurve",
         "deployedApp": "https://mighty-tundra-34283.herokuapp.com/"
+    },
+    {   
+        "index": 2,
+        "imageUrl": "https://user-images.githubusercontent.com/67694214/102821999-1fad1100-43a6-11eb-8935-f3ed2a8ccdd6.png",
+        "projTitle": "BookBook",
+        "summary": "A book sharing website used to share and borrow books from people near you",
+        "gitHubLink": "https://github.com/skolnikskolnik/bookBook",
+        "deployedApp": "https://pacific-harbor-27397.herokuapp.com/login"
+    },
+    {
+        "index": 3,
+        "imageUrl": "https://github.com/skolnikskolnik/bebechevre/raw/main/images/readme_preview.JPG",
+        "projTitle": "ReadMe Generator",
+        "summary": "A command line application to generate readmes quickly and easily",
+        "gitHubLink": "https://github.com/skolnikskolnik/bebechevre",
+        "deployedApp": "https://www.youtube.com/watch?v=8It383aUTiY&feature=youtu.be&ab_channel=JulieSkolnikAltman"
+    },
+    {   
+        "index": 4,
+        "imageUrl": "https://github.com/skolnikskolnik/lannuaire/raw/main/images/usa_alpha.JPG",
+        "projTitle": "Employee Directory",
+        "summary": "A website to sort and search for employees",
+        "gitHubLink": "https://github.com/skolnikskolnik/lannuaire",
+        "deployedApp": "https://skolnikskolnik.github.io/lannuaire/"
+    },
+    {
+        "index": 5,
+        "imageUrl": "https://github.com/skolnikskolnik/sprinteverslest/raw/main/pictures/dashboard.JPG",
+        "projTitle": "Fitness tracker",
+        "summary": "MongoDB powered fitness tracker",
+        "gitHubLink": "https://github.com/skolnikskolnik/sprinteverslest",
+        "deployedApp": "https://fathomless-ridge-85219.herokuapp.com/?id=5ffdf6aebcee8f0017adaa6d"
+    },
+    {
+        "index": 6,
+        "imageUrl": "https://github.com/skolnikskolnik/euorpiano/raw/main/images/weather_display_buttons.JPG",
+        "projTitle": "Weather Dashboard",
+        "summary": "Generate current weather and forecast for cities around the world",
+        "gitHubLink": "https://github.com/skolnikskolnik/euorpiano",
+        "deployedApp": "https://skolnikskolnik.github.io/euorpiano/s"
     }
 ]
