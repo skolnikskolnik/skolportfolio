@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/skolportfolio/static/css/main.e15c6898.chunk.css",
-    "main.js": "/skolportfolio/static/js/main.893d7364.chunk.js",
-    "main.js.map": "/skolportfolio/static/js/main.893d7364.chunk.js.map",
-    "runtime-main.js": "/skolportfolio/static/js/runtime-main.7c9e69e0.js",
-    "runtime-main.js.map": "/skolportfolio/static/js/runtime-main.7c9e69e0.js.map",
+    "main.css": "/skolportfolio/static/css/main.3b22c785.chunk.css",
+    "main.js": "/skolportfolio/static/js/main.5decb63e.chunk.js",
+    "main.js.map": "/skolportfolio/static/js/main.5decb63e.chunk.js.map",
+    "runtime-main.js": "/skolportfolio/static/js/runtime-main.04a53b72.js",
+    "runtime-main.js.map": "/skolportfolio/static/js/runtime-main.04a53b72.js.map",
     "static/css/2.150d169a.chunk.css": "/skolportfolio/static/css/2.150d169a.chunk.css",
-    "static/js/2.822ce063.chunk.js": "/skolportfolio/static/js/2.822ce063.chunk.js",
-    "static/js/2.822ce063.chunk.js.map": "/skolportfolio/static/js/2.822ce063.chunk.js.map",
-    "static/js/3.7c7b4e7a.chunk.js": "/skolportfolio/static/js/3.7c7b4e7a.chunk.js",
-    "static/js/3.7c7b4e7a.chunk.js.map": "/skolportfolio/static/js/3.7c7b4e7a.chunk.js.map",
+    "static/js/2.1d11bf61.chunk.js": "/skolportfolio/static/js/2.1d11bf61.chunk.js",
+    "static/js/2.1d11bf61.chunk.js.map": "/skolportfolio/static/js/2.1d11bf61.chunk.js.map",
     "index.html": "/skolportfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/skolportfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.e15c6898.chunk.css.map": "/skolportfolio/static/css/main.e15c6898.chunk.css.map",
-    "static/js/2.822ce063.chunk.js.LICENSE.txt": "/skolportfolio/static/js/2.822ce063.chunk.js.LICENSE.txt",
+    "static/css/main.3b22c785.chunk.css.map": "/skolportfolio/static/css/main.3b22c785.chunk.css.map",
+    "static/js/2.1d11bf61.chunk.js.LICENSE.txt": "/skolportfolio/static/js/2.1d11bf61.chunk.js.LICENSE.txt",
     "static/media/altman_te.3762a07c.pdf": "/skolportfolio/static/media/altman_te.3762a07c.pdf",
     "static/media/jskolpic.b802e33d.jpg": "/skolportfolio/static/media/jskolpic.b802e33d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7c9e69e0.js",
+    "static/js/runtime-main.04a53b72.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.822ce063.chunk.js",
-    "static/css/main.e15c6898.chunk.css",
-    "static/js/main.893d7364.chunk.js"
+    "static/js/2.1d11bf61.chunk.js",
+    "static/css/main.3b22c785.chunk.css",
+    "static/js/main.5decb63e.chunk.js"
   ]
 }
