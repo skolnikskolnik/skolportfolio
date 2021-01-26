@@ -15,7 +15,7 @@ function App() {
         <Wrapper>
           <Route exact path={["/", "/skolportfolio"]} component={HomePage} />
           <Route exact path={["/portfolio", "/skolportfolio/portfolio"]} component={Portfolio} />
-          <Route component={Portfolio}/>
+          <Route path="*" component={Portfolio}/>
         </Wrapper>
         <Footer />
       </div>
