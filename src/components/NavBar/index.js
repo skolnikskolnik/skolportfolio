@@ -39,7 +39,15 @@ export default function NavBar() {
     setAnchorEl(null);
   };
 
+  const handleClosePortfolio = () => {
+    setAnchorEl(null);
+    window.location.href = "/portfolio";
+  };
 
+  const handleCloseHome = () => {
+    setAnchorEl(null);
+    window.location.href = "/";
+  };
 
   return (
     <div className={classes.root}>
@@ -67,8 +75,8 @@ export default function NavBar() {
               open={open}
               onClose={handleClose}
             >
-              <MenuItem onClick={window.location.hash = "/"} >Home</MenuItem>
-              <MenuItem onClick={window.location.hash = "/portfolio"} >Portfolio</MenuItem>
+              <MenuItem onClick={handleCloseHome} >Home</MenuItem>
+              <MenuItem onClick={handleClosePortfolio} >Portfolio</MenuItem>
             </Menu>
           </IconButton>
           <Typography variant="h6" className={classes.title}>
