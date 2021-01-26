@@ -41,7 +41,7 @@ export default function NavBar() {
 
   const handleClosePortfolio = () => {
     setAnchorEl(null);
-    window.location.href = "/portfolio";
+    window.location.href = "/skolportfolio/portfolio";
   };
 
   const handleCloseHome = () => {
