@@ -25,11 +25,11 @@
     },
     {   
         "index": 4,
-        "imageUrl": "https://github.com/skolnikskolnik/lannuaire/raw/main/images/usa_alpha.JPG",
-        "projTitle": "Employee Directory",
-        "summary": "A website to sort and search for employees",
-        "gitHubLink": "https://github.com/skolnikskolnik/lannuaire",
-        "deployedApp": "https://skolnikskolnik.github.io/lannuaire/"
+        "imageUrl": "https://github.com/skolnikskolnik/quatrepattes/raw/main/readme-images/search.JPG",
+        "projTitle": "Google Books React App",
+        "summary": "A react app to search and store books",
+        "gitHubLink": "https://github.com/skolnikskolnik/quatrepattes",
+        "deployedApp": "https://livrelibre123.herokuapp.com/"
     },
     {
         "index": 5,
