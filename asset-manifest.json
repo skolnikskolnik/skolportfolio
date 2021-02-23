@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/skolportfolio/static/css/main.dc640d74.chunk.css",
-    "main.js": "/skolportfolio/static/js/main.09533711.chunk.js",
-    "main.js.map": "/skolportfolio/static/js/main.09533711.chunk.js.map",
+    "main.js": "/skolportfolio/static/js/main.c37fabfd.chunk.js",
+    "main.js.map": "/skolportfolio/static/js/main.c37fabfd.chunk.js.map",
     "runtime-main.js": "/skolportfolio/static/js/runtime-main.04a53b72.js",
     "runtime-main.js.map": "/skolportfolio/static/js/runtime-main.04a53b72.js.map",
     "static/css/2.150d169a.chunk.css": "/skolportfolio/static/css/2.150d169a.chunk.css",
@@ -12,7 +12,7 @@
     "static/css/2.150d169a.chunk.css.map": "/skolportfolio/static/css/2.150d169a.chunk.css.map",
     "static/css/main.dc640d74.chunk.css.map": "/skolportfolio/static/css/main.dc640d74.chunk.css.map",
     "static/js/2.19a19b2d.chunk.js.LICENSE.txt": "/skolportfolio/static/js/2.19a19b2d.chunk.js.LICENSE.txt",
-    "static/media/altman_te.38458515.pdf": "/skolportfolio/static/media/altman_te.38458515.pdf",
+    "static/media/altman_te.18b5d577.pdf": "/skolportfolio/static/media/altman_te.18b5d577.pdf",
     "static/media/jskolpic.b802e33d.jpg": "/skolportfolio/static/media/jskolpic.b802e33d.jpg"
   },
   "entrypoints": [
@@ -20,6 +20,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.19a19b2d.chunk.js",
     "static/css/main.dc640d74.chunk.css",
-    "static/js/main.09533711.chunk.js"
+    "static/js/main.c37fabfd.chunk.js"
   ]
 }
