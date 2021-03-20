@@ -1,23 +1,24 @@
 import React from "react";
-import { Route } from "react-router-dom";
-import {HashRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Portfolio from "./pages/Portfolio";
-import Wrapper from "./components/Wrapper";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
-function App() {
+
+function App () {
   return (
     <Router>
       <div>
-      <NavBar />
-        <Wrapper>
-          <Route exact path="/" component={HomePage} />
-          <Route exact path="/skolportfolio/#/" component={HomePage} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/skolportfolio/#/portfolio" component={Portfolio} />
-        </Wrapper>
+        <NavBar />
+        <Switch>
+          <Route exact path = {["/", "/skolportfolio"]}>
+            <HomePage />
+          </Route>
+          <Route exact path = "/portfolio">
+            <Portfolio />
+          </Route>
+        </Switch>
         <Footer />
       </div>
     </Router>
