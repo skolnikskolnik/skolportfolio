@@ -41,12 +41,12 @@ export default function NavBar() {
 
   const handleClosePortfolio = () => {
     setAnchorEl(null);
-    window.location.href = "https://skolnikskolnik.github.io/skolportfolio/#/portfolio";
+    window.location.href = "https://skolnikportfolio.herokuapp.com/#/";
   };
 
   const handleCloseHome = () => {
     setAnchorEl(null);
-    window.location.href = "https://skolnikskolnik.github.io/skolportfolio/#/";
+    window.location.href = "https://skolnikportfolio.herokuapp.com/#/portfolio";
   };
 
   return (
