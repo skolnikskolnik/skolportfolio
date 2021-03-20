@@ -3,15 +3,15 @@
         "index": 1,
         "imageUrl": "https://github.com/skolnikskolnik/titrationCurve/raw/main/images/tit_curve.JPG",
         "projTitle": "Titration curve",
-        "summary": "Generates a titration curve and generates a database of weak acids",
+        "summary": "A Charts.js and MySQL powered titration curve generator",
         "gitHubLink": "https://github.com/skolnikskolnik/titrationCurve",
         "deployedApp": "https://mighty-tundra-34283.herokuapp.com/"
     },
     {   
         "index": 2,
-        "imageUrl": "https://user-images.githubusercontent.com/67694214/102821999-1fad1100-43a6-11eb-8935-f3ed2a8ccdd6.png",
-        "projTitle": "BookBook",
-        "summary": "A book sharing website used to share and borrow books from people near you",
+        "imageUrl": "https://user-images.githubusercontent.com/67694214/110022166-9432f300-7cf9-11eb-9243-6ccec973a1a2.png",
+        "projTitle": "There's Food At Home",
+        "summary": "A MERN application for keeping track of pantry items and their expiration dates",
         "gitHubLink": "https://github.com/skolnikskolnik/bookBook",
         "deployedApp": "https://pacific-harbor-27397.herokuapp.com/login"
     },
@@ -19,7 +19,7 @@
         "index": 3,
         "imageUrl": "https://github.com/skolnikskolnik/bebechevre/raw/main/images/readme_preview.JPG",
         "projTitle": "ReadMe Generator",
-        "summary": "A command line application to generate readmes quickly and easily",
+        "summary": "An Express and Inquirer powered command line application to generate readmes quickly and easily",
         "gitHubLink": "https://github.com/skolnikskolnik/bebechevre",
         "deployedApp": "https://www.youtube.com/watch?v=8It383aUTiY&feature=youtu.be&ab_channel=JulieSkolnikAltman"
     },
@@ -27,7 +27,7 @@
         "index": 4,
         "imageUrl": "https://github.com/skolnikskolnik/quatrepattes/raw/main/readme-images/search.JPG",
         "projTitle": "Google Books React App",
-        "summary": "A react app to search and store books",
+        "summary": "A react app that uses the Google Books API and MongoDB to search and store books",
         "gitHubLink": "https://github.com/skolnikskolnik/quatrepattes",
         "deployedApp": "https://livrelibre123.herokuapp.com/"
     },
