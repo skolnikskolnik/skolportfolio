@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -29,14 +29,21 @@ export default function NavBar() {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
+  const [isOpen, setIsOpen] = useState(false);
 
 
   const handleMenu = (event) => {
+    event.preventDefault();
+    setIsOpen(true);
     setAnchorEl(event.currentTarget);
   };
 
   const handleClose = () => {
     setAnchorEl(null);
+    if(isOpen === true){
+      console.log("test");
+      setIsOpen(false); 
+    }
   };
 
   const handleClosePortfolio = () => {
@@ -72,14 +79,17 @@ export default function NavBar() {
                 vertical: 'top',
                 horizontal: 'right',
               }}
-              open={open}
+              // open={open}
+              open={isOpen}
               onClose={handleClose}
             >
               <MenuItem onClick={handleCloseHome} >Home</MenuItem>
               <MenuItem onClick={handleClosePortfolio} >Portfolio</MenuItem>
             </Menu>
           </IconButton>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h6" 
+          onClick={handleClose}
+          className={classes.title}>
             Navigate
           </Typography>
         </Toolbar>
