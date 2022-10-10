@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/skolportfolio/static/css/main.dc640d74.chunk.css",
-    "main.js": "/skolportfolio/static/js/main.0c8b4be3.chunk.js",
-    "main.js.map": "/skolportfolio/static/js/main.0c8b4be3.chunk.js.map",
+    "main.css": "/skolportfolio/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/skolportfolio/static/js/main.10cfbd3f.chunk.js",
+    "main.js.map": "/skolportfolio/static/js/main.10cfbd3f.chunk.js.map",
     "runtime-main.js": "/skolportfolio/static/js/runtime-main.04a53b72.js",
     "runtime-main.js.map": "/skolportfolio/static/js/runtime-main.04a53b72.js.map",
     "static/css/2.150d169a.chunk.css": "/skolportfolio/static/css/2.150d169a.chunk.css",
-    "static/js/2.19a19b2d.chunk.js": "/skolportfolio/static/js/2.19a19b2d.chunk.js",
-    "static/js/2.19a19b2d.chunk.js.map": "/skolportfolio/static/js/2.19a19b2d.chunk.js.map",
+    "static/js/2.d14ce337.chunk.js": "/skolportfolio/static/js/2.d14ce337.chunk.js",
+    "static/js/2.d14ce337.chunk.js.map": "/skolportfolio/static/js/2.d14ce337.chunk.js.map",
     "index.html": "/skolportfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/skolportfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.dc640d74.chunk.css.map": "/skolportfolio/static/css/main.dc640d74.chunk.css.map",
-    "static/js/2.19a19b2d.chunk.js.LICENSE.txt": "/skolportfolio/static/js/2.19a19b2d.chunk.js.LICENSE.txt",
-    "static/media/altman_te.18b5d577.pdf": "/skolportfolio/static/media/altman_te.18b5d577.pdf",
-    "static/media/jskolpic.b802e33d.jpg": "/skolportfolio/static/media/jskolpic.b802e33d.jpg"
+    "static/css/main.6dea0f05.chunk.css.map": "/skolportfolio/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.d14ce337.chunk.js.LICENSE.txt": "/skolportfolio/static/js/2.d14ce337.chunk.js.LICENSE.txt",
+    "static/media/jskolpic.b802e33d.jpg": "/skolportfolio/static/media/jskolpic.b802e33d.jpg",
+    "static/media/julie_altman_resume_oct.b5e7f577.pdf": "/skolportfolio/static/media/julie_altman_resume_oct.b5e7f577.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.04a53b72.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.19a19b2d.chunk.js",
-    "static/css/main.dc640d74.chunk.css",
-    "static/js/main.0c8b4be3.chunk.js"
+    "static/js/2.d14ce337.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.10cfbd3f.chunk.js"
   ]
 }
