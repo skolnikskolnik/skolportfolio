@@ -5,7 +5,6 @@
     "node": "16.x"
   },
   "private": true,
-  "homepage": "https://skolnikskolnik.github.io/skolportfolio/",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",

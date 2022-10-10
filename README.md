@@ -12,7 +12,7 @@
 ## Description: 
 This is a professional website and portfolio that also showcases use of React as well as the Material UI.
 
-This application is deployed  <a href='https://skolnikportfolio.herokuapp.com/#/'>here.</a>
+This application is deployed  <a href='https://julie-altman-portfolio.web.app/'>here.</a>
 
 The user is greeted with the following screen:
 ![welcome screen](./readme_images/homepage.JPG)
