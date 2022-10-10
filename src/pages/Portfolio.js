@@ -1,24 +1,29 @@
-import React from 'react';
-import Button from '@material-ui/core/Button';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Grid from '@material-ui/core/Grid';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
-import Container from '@material-ui/core/Container';
-import projects from "../projects.json";
+import React from 'react'
+import Card from '@material-ui/core/Card'
+import CardActions from '@material-ui/core/CardActions'
+import CardContent from '@material-ui/core/CardContent'
+import CardMedia from '@material-ui/core/CardMedia'
+import CssBaseline from '@material-ui/core/CssBaseline'
+import Grid from '@material-ui/core/Grid'
+import { makeStyles } from '@material-ui/core/styles'
+import Container from '@material-ui/core/Container'
 
+import Button from '../components/ButtonLink'
+import { homepageText, portfolioText } from '../constants/text'
+import projects from "../projects.json"
 
 const useStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
   },
+  main: {
+    backgroundColor: '#fffffe',
+  },
   heroContent: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: '#232946',
+    color: '#fffffe',
     padding: theme.spacing(8, 0, 6),
+    textAlign: 'center',
   },
   heroButtons: {
     marginTop: theme.spacing(4),
@@ -31,9 +36,11 @@ const useStyles = makeStyles((theme) => ({
     height: '100%',
     display: 'flex',
     flexDirection: 'column',
+    backgroundColor: '#b8c1ec',
+    color: '#121629',
   },
   cardMedia: {
-    paddingTop: '56.25%', // 16:9
+    paddingTop: '56.25%',
   },
   cardContent: {
     flexGrow: 1,
@@ -42,11 +49,12 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),
   },
-  button: {
-    width: "250px",
-    height: "35px",
-    backgroundColor: "#C335CA"
-}
+  projectTitle: {
+    fontWeight: 'bold',
+  },
+  text: {
+    fontSize: '18px',
+  },
 }));
 
 
@@ -56,32 +64,24 @@ export default function HomePage() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <main>
-        {/* Hero unit */}
+      <main className={classes.main}>
         <div className={classes.heroContent}>
-          <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Julie's Projects
-            </Typography>
-            <Typography variant="h5" align="center" color="textSecondary" paragraph>
-              Here are a collection of some of the projects I've been working on. For a full list of projects, visit my GitHub page.
-            </Typography>
+          <Container maxWidth="sm" className={classes.text}>
+            <h1>{portfolioText.header}</h1>
+            <h5>{portfolioText.content}</h5>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button className={classes.button} variant="contained" color="primary" href="https://github.com/skolnikskolnik">
-                    Visit my GitHub page.
-                  </Button>
+                  <Button text={homepageText.github} link={homepageText.githubLink} />
                 </Grid>
               </Grid>
             </div>
           </Container>
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
-          {/* End hero unit */}
-          <Grid container spacing={4}>
+          <Grid container spacing={2}>
             {projects.map((project) => (
-              <Grid item key={project.index} xs={12} sm={6} md={4}>
+              <Grid item key={project.index} xs={6} s={6} m={6}>
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
@@ -89,20 +89,15 @@ export default function HomePage() {
                     title={project.projTitle}
                   />
                   <CardContent className={classes.cardContent}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      {project.projTitle}
-                    </Typography>
-                    <Typography>
-                      {project.summary}
-                    </Typography>
+                    <h5 className={classes.projectTitle}>{project.projTitle}</h5>
+                    <div className={classes.text}>
+                      <p>{project.summary}</p>
+                      <p>{portfolioText.role}{project.role}</p>
+                    </div>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary" href={project.gitHubLink}>
-                      View on GitHub
-                    </Button>
-                    <Button size="small" color="primary" href={project.deployedApp}>
-                      Link to deployed application
-                    </Button>
+                    <Button text={portfolioText.github} link={project.gitHubLink} />
+                    <Button text={project.deployedApp ? portfolioText.deployed : portfolioText.workInProgress} link={project.deployedApp} disabled={!project.deployedApp} />
                   </CardActions>
                 </Card>
               </Grid>

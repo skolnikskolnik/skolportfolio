@@ -10,7 +10,6 @@ import Menu from '@material-ui/core/Menu';
 
 
 export default function NavBar() {
-
   const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
@@ -22,13 +21,13 @@ export default function NavBar() {
       flexGrow: 1,
     },
     navBar: {
-      backgroundColor: "#35CAC3"
+      backgroundColor: "#b8c1ec",
+      color: '#121629',
     }
   }));
 
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
-  const open = Boolean(anchorEl);
   const [isOpen, setIsOpen] = useState(false);
 
 
@@ -40,9 +39,9 @@ export default function NavBar() {
 
   const handleClose = () => {
     setAnchorEl(null);
-    if(isOpen === true){
+    if (isOpen === true) {
       console.log("test");
-      setIsOpen(false); 
+      setIsOpen(false);
     }
   };
 
@@ -79,7 +78,6 @@ export default function NavBar() {
                 vertical: 'top',
                 horizontal: 'right',
               }}
-              // open={open}
               open={isOpen}
               onClose={handleClose}
             >
@@ -87,9 +85,9 @@ export default function NavBar() {
               <MenuItem onClick={handleClosePortfolio} >Portfolio</MenuItem>
             </Menu>
           </IconButton>
-          <Typography variant="h6" 
-          onClick={handleClose}
-          className={classes.title}>
+          <Typography variant="h6"
+            onClick={handleClose}
+            className={classes.title}>
             Navigate
           </Typography>
         </Toolbar>

@@ -1,18 +1,20 @@
 [
     {
         "index": 1,
-        "imageUrl": "https://github.com/skolnikskolnik/titrationCurve/raw/main/images/tit_curve.JPG",
-        "projTitle": "Titration curve",
-        "summary": "A Charts.js and MySQL powered titration curve generator",
-        "gitHubLink": "https://github.com/skolnikskolnik/titrationCurve",
-        "deployedApp": "https://mighty-tundra-34283.herokuapp.com/"
+        "imageUrl": "https://i.ytimg.com/vi/7AOGellk5N8/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAsmC0YrbVfk_MsojUgZHo1WE5aNg",
+        "projTitle": "Oh mon français",
+        "summary": "A MERN powered application for managing roleplay games - IN PROGRESS",
+        "gitHubLink": "https://github.com/skolnikskolnik/ohmonfrancais",
+        "role": "Sole developer",
+        "deployedApp": null
     },
-    {   
+    {
         "index": 2,
-        "imageUrl": "https://user-images.githubusercontent.com/67694214/110022166-9432f300-7cf9-11eb-9243-6ccec973a1a2.png",
-        "projTitle": "There's Food At Home",
-        "summary": "A MERN application for keeping track of pantry items and their expiration dates",
+        "imageUrl": "https://user-images.githubusercontent.com/67694214/102822003-2176d480-43a6-11eb-9611-8d3bb2ebe6c9.png",
+        "projTitle": "BookBook",
+        "summary": "A collaboration using MySQL and Express to connect book borrowers and lenters",
         "gitHubLink": "https://github.com/skolnikskolnik/bookBook",
+        "role": "Backend tearm - I handled the API calls and frontend JavaScript",
         "deployedApp": "https://pacific-harbor-27397.herokuapp.com/login"
     },
     {
@@ -20,31 +22,17 @@
         "imageUrl": "https://github.com/skolnikskolnik/bebechevre/raw/main/images/readme_preview.JPG",
         "projTitle": "ReadMe Generator",
         "summary": "An Express and Inquirer powered command line application to generate readmes quickly and easily",
+        "role": "Sole developer",
         "gitHubLink": "https://github.com/skolnikskolnik/bebechevre",
         "deployedApp": "https://www.youtube.com/watch?v=8It383aUTiY&feature=youtu.be&ab_channel=JulieSkolnikAltman"
     },
-    {   
+    {
         "index": 4,
-        "imageUrl": "https://github.com/skolnikskolnik/quatrepattes/raw/main/readme-images/search.JPG",
-        "projTitle": "Google Books React App",
-        "summary": "A react app that uses the Google Books API and MongoDB to search and store books",
-        "gitHubLink": "https://github.com/skolnikskolnik/quatrepattes",
-        "deployedApp": "https://livrelibre123.herokuapp.com/"
-    },
-    {
-        "index": 5,
-        "imageUrl": "https://github.com/skolnikskolnik/sprinteverslest/raw/main/pictures/dashboard.JPG",
-        "projTitle": "Fitness tracker",
-        "summary": "MongoDB powered fitness tracker",
-        "gitHubLink": "https://github.com/skolnikskolnik/sprinteverslest",
-        "deployedApp": "https://fathomless-ridge-85219.herokuapp.com/?id=5ffdf6aebcee8f0017adaa6d"
-    },
-    {
-        "index": 6,
-        "imageUrl": "https://github.com/skolnikskolnik/euorpiano/raw/main/images/weather_display_buttons.JPG",
-        "projTitle": "Weather Dashboard",
-        "summary": "Generate current weather and forecast for cities around the world",
-        "gitHubLink": "https://github.com/skolnikskolnik/euorpiano",
-        "deployedApp": "https://skolnikskolnik.github.io/euorpiano/s"
+        "imageUrl": "https://user-images.githubusercontent.com/67694214/110022130-8da47b80-7cf9-11eb-9233-49527af97c5b.png",
+        "projTitle": "There's food at home",
+        "summary": "A MERN powered application using the Spoonacular API that allows users to search for allergy-friendly recipes using ingredients in their house",
+        "gitHubLink": "https://github.com/johnsondavid1107/theresFoodAtHome",
+        "role": "Backend tearm - I handled the API calls and frontend JavaScript",
+        "deployedApp": "https://theres-food-at-home.herokuapp.com/"
     }
 ]

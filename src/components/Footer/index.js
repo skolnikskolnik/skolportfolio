@@ -6,10 +6,10 @@ import { makeStyles } from '@material-ui/core/styles';
 export default function Footer() {
     const useStyles = makeStyles((theme) => ({
         footer: {
-          backgroundColor: theme.palette.background.paper,
-          padding: theme.spacing(6),
+            backgroundColor: theme.palette.background.paper,
+            padding: theme.spacing(6),
         }
-      }));
+    }));
 
     const classes = useStyles();
 
@@ -19,7 +19,7 @@ export default function Footer() {
                 {'Copyright © '}
                 <Link color="inherit" href="https://material-ui.com/">
                     Julie Altman
-            </Link>{' '}
+                </Link>{' '}
                 {new Date().getFullYear()}
                 {'.'}
             </Typography>
@@ -27,17 +27,15 @@ export default function Footer() {
     }
     return (
         <div>
-            {/* Footer */}
             < footer className={classes.footer} >
                 <Typography variant="h6" align="center" gutterBottom>
                     Julie Skolnik Altman
-          </Typography>
+                </Typography>
                 <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
                     Thank you for visiting my website.
-          </Typography>
+                </Typography>
                 <Copyright />
             </footer >
-            {/* End footer */}
         </div>
     )
 }
