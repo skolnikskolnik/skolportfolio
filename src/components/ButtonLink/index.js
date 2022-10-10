@@ -2,10 +2,15 @@ import React from 'react'
 import Button from '@material-ui/core/Button'
 import { makeStyles } from '@material-ui/core/styles'
 
-export default function LinkButton({ link, text, disabled }) {
+export default function LinkButton({
+    link,
+    text,
+    disabled,
+    width = '300px',
+}) {
     const useStyles = makeStyles(() => ({
         button: {
-            width: '300px',
+            width: width,
             padding: '16px',
             height: '75px',
             backgroundColor: "#eebbc3",
